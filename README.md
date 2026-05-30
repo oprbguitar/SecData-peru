@@ -10,17 +10,25 @@
 
 ---
 
+## Declaración (encabezado de la página)
+
+**Pierre R.** declara que los datos de esta página provienen de fuentes públicas y oficiales del Estado peruano —**INEI** (estadísticas de criminalidad y victimización) y el **Observatorio Nacional de Seguridad Ciudadana (OBNASEC – Ministerio del Interior)**—, trabajados de forma agregada por región. Se mencionan las fuentes sin necesidad de incluir enlaces.
+
+📧 **Consultas adicionales:** [peru.labs.pe@gmail.com](mailto:peru.labs.pe@gmail.com)
+
+---
+
 ## ¿De qué trata?
 
 SecData Perú toma información **pública y agregada** de seguridad ciudadana y la convierte en un tablero único, claro y accionable. En lugar de revisar boletines sueltos, el usuario ve de un vistazo **qué regiones están peor, hacia dónde van y dónde actuar primero**.
 
-La página interactiva muestra:
+La página interactiva incluye, además del tablero, secciones de texto que explican:
 
-- **Mapa de hotspots** por región: el tamaño del círculo refleja el índice de riesgo y el color el semáforo (Alto / Medio / Bajo).
-- **Línea de tiempo con reproducción automática**: un botón “play” anima la evolución del riesgo a lo largo de los periodos disponibles.
-- **Indicadores clave (KPIs)**: victimización promedio nacional, región de mayor riesgo y número de regiones en nivel Alto.
-- **Ranking de regiones** por índice de riesgo, con clic para ver su tendencia.
-- **Gráfico de tendencia** de victimización, nacional o por región seleccionada.
+- **¿Qué es y para qué sirve?** — mapa de hotspots, línea de tiempo y enfoque de decisión.
+- **Tablero interactivo** — mapa animado, KPIs, ranking y tendencia por región.
+- **Cómo leer el índice de riesgo** — pesos del índice y significado del semáforo.
+- **Próximos pasos: decidir con los datos** — ruta Detectar → Priorizar → Actuar → Evaluar y ejemplos de lectura para decisión.
+- **Fuentes de los datos** — declaradas dentro de la propia página.
 
 ## Índice de riesgo (la lógica de decisión)
 
@@ -31,15 +39,6 @@ Cada región recibe un índice de **0 a 100** que combina, con pesos configurabl
 - Percepción de inseguridad (20 %)
 
 Sobre ese resultado se aplica un **semáforo** (Alto / Medio / Bajo) para una lectura inmediata orientada a la priorización de recursos.
-
-## Fuentes de los datos
-
-La información proviene de fuentes **públicas y oficiales** del Estado peruano, trabajada siempre de forma **agregada por región** (nunca a nivel de persona):
-
-- **Instituto Nacional de Estadística e Informática (INEI)** — sistema integrado de estadísticas de criminalidad y seguridad ciudadana, encuesta de victimización y sistema de información regional.
-- **Observatorio Nacional de Seguridad Ciudadana (OBNASEC) — Ministerio del Interior.**
-
-> *Cadencia:* la victimización es **semestral**, no en vivo minuto a minuto. La “actualización en tiempo real” del proyecto consiste en **refrescar de forma programada el último dato publicado**. Para que el repositorio funcione siempre (incluso sin conexión), incluye una **muestra sintética** de demostración; los resultados mostrados con esa muestra **no representan cifras reales**.
 
 ## Cómo está construido
 
