@@ -1,0 +1,39 @@
+name: Refrescar datos y publicar tablero
+
+# Automatización del refresco: corre cada lunes a las 06:00 (hora Perú = UTC-5)
+# y también de forma manual. Cuando INEI/OBNASEC publican un nuevo periodo,
+# el pipeline regenera docs/data.json y GitHub Pages se actualiza solo.
+on:
+  schedule:
+    - cron: "0 11 * * 1"   # 11:00 UTC = 06:00 Perú, cada lunes
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar pipeline (intenta fuente real, cae a muestra)
+        run: python -m src.run_pipeline --refresh
+
+      - name: Generar vista previa
+        run: python -m src.plot_preview
+
+      - name: Commit de los datos actualizados
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add docs/data.json docs/captura_dashboard.png data_processed/ || true
+          git commit -m "chore: refresco automático de datos [skip ci]" || echo "Sin cambios"
+          git push || echo "Nada que publicar"

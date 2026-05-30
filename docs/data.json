@@ -1,0 +1,5489 @@
+{
+  "meta": {
+    "ultimo_periodo": "2025-S2",
+    "fuente": "INEI ENAPRES / OBNASEC (demostración con muestra sintética)",
+    "indicador_principal": "Tasa de victimización (%)",
+    "semaforo_umbrales": {
+      "alto": 28.0,
+      "medio": 22.0
+    }
+  },
+  "hotspots": [
+    {
+      "region": "Piura",
+      "lat": -5.2,
+      "lon": -80.0,
+      "victimizacion": 34.9,
+      "homicidios": 6.2,
+      "percepcion": 94.4,
+      "riesgo": 91.3,
+      "semaforo": "Alto",
+      "var_pp": 2.2
+    },
+    {
+      "region": "Arequipa",
+      "lat": -16.4,
+      "lon": -72.3,
+      "victimizacion": 35.9,
+      "homicidios": 5.2,
+      "percepcion": 95.0,
+      "riesgo": 86.6,
+      "semaforo": "Alto",
+      "var_pp": -0.1
+    },
+    {
+      "region": "La Libertad",
+      "lat": -8.0,
+      "lon": -78.5,
+      "victimizacion": 34.0,
+      "homicidios": 5.8,
+      "percepcion": 95.0,
+      "riesgo": 86.3,
+      "semaforo": "Alto",
+      "var_pp": 0.9
+    },
+    {
+      "region": "Cajamarca",
+      "lat": -6.5,
+      "lon": -78.5,
+      "victimizacion": 31.7,
+      "homicidios": 7.0,
+      "percepcion": 78.4,
+      "riesgo": 82.9,
+      "semaforo": "Alto",
+      "var_pp": 2.3
+    },
+    {
+      "region": "Callao",
+      "lat": -12.05,
+      "lon": -77.12,
+      "victimizacion": 32.0,
+      "homicidios": 6.5,
+      "percepcion": 84.8,
+      "riesgo": 82.4,
+      "semaforo": "Alto",
+      "var_pp": 4.2
+    },
+    {
+      "region": "Huancavelica",
+      "lat": -12.9,
+      "lon": -74.9,
+      "victimizacion": 31.9,
+      "homicidios": 6.3,
+      "percepcion": 87.6,
+      "riesgo": 81.8,
+      "semaforo": "Alto",
+      "var_pp": 1.2
+    },
+    {
+      "region": "Áncash",
+      "lat": -9.5,
+      "lon": -77.5,
+      "victimizacion": 31.3,
+      "homicidios": 5.9,
+      "percepcion": 85.5,
+      "riesgo": 76.5,
+      "semaforo": "Alto",
+      "var_pp": 1.0
+    },
+    {
+      "region": "Junín",
+      "lat": -11.5,
+      "lon": -75.0,
+      "victimizacion": 31.3,
+      "homicidios": 5.6,
+      "percepcion": 88.0,
+      "riesgo": 75.2,
+      "semaforo": "Alto",
+      "var_pp": 1.4
+    },
+    {
+      "region": "Lima",
+      "lat": -11.8,
+      "lon": -76.8,
+      "victimizacion": 33.9,
+      "homicidios": 4.7,
+      "percepcion": 82.4,
+      "riesgo": 72.9,
+      "semaforo": "Alto",
+      "var_pp": 1.2
+    },
+    {
+      "region": "Madre de Dios",
+      "lat": -12.0,
+      "lon": -70.5,
+      "victimizacion": 33.9,
+      "homicidios": 4.6,
+      "percepcion": 82.9,
+      "riesgo": 72.4,
+      "semaforo": "Alto",
+      "var_pp": -2.4
+    },
+    {
+      "region": "Apurímac",
+      "lat": -14.0,
+      "lon": -72.9,
+      "victimizacion": 30.1,
+      "homicidios": 5.9,
+      "percepcion": 81.8,
+      "riesgo": 72.0,
+      "semaforo": "Alto",
+      "var_pp": -1.6
+    },
+    {
+      "region": "Cusco",
+      "lat": -13.5,
+      "lon": -71.9,
+      "victimizacion": 32.9,
+      "homicidios": 4.7,
+      "percepcion": 82.7,
+      "riesgo": 70.5,
+      "semaforo": "Alto",
+      "var_pp": 1.4
+    },
+    {
+      "region": "Moquegua",
+      "lat": -16.8,
+      "lon": -70.9,
+      "victimizacion": 30.3,
+      "homicidios": 5.5,
+      "percepcion": 73.4,
+      "riesgo": 66.3,
+      "semaforo": "Alto",
+      "var_pp": -1.7
+    },
+    {
+      "region": "Pasco",
+      "lat": -10.5,
+      "lon": -75.5,
+      "victimizacion": 26.4,
+      "homicidios": 5.5,
+      "percepcion": 70.5,
+      "riesgo": 55.3,
+      "semaforo": "Medio",
+      "var_pp": -1.7
+    },
+    {
+      "region": "Amazonas",
+      "lat": -5.2,
+      "lon": -78.0,
+      "victimizacion": 25.7,
+      "homicidios": 5.2,
+      "percepcion": 65.2,
+      "riesgo": 49.2,
+      "semaforo": "Medio",
+      "var_pp": -3.6
+    },
+    {
+      "region": "Tacna",
+      "lat": -17.8,
+      "lon": -70.3,
+      "victimizacion": 26.2,
+      "homicidios": 4.1,
+      "percepcion": 73.1,
+      "riesgo": 45.4,
+      "semaforo": "Medio",
+      "var_pp": -2.3
+    },
+    {
+      "region": "Huánuco",
+      "lat": -9.5,
+      "lon": -76.0,
+      "victimizacion": 25.1,
+      "homicidios": 4.1,
+      "percepcion": 71.4,
+      "riesgo": 41.9,
+      "semaforo": "Medio",
+      "var_pp": -1.1
+    },
+    {
+      "region": "Loreto",
+      "lat": -4.0,
+      "lon": -74.5,
+      "victimizacion": 25.4,
+      "homicidios": 3.5,
+      "percepcion": 68.1,
+      "riesgo": 36.9,
+      "semaforo": "Medio",
+      "var_pp": -1.3
+    },
+    {
+      "region": "Lambayeque",
+      "lat": -6.4,
+      "lon": -79.8,
+      "victimizacion": 22.6,
+      "homicidios": 4.1,
+      "percepcion": 63.0,
+      "riesgo": 32.3,
+      "semaforo": "Medio",
+      "var_pp": -1.3
+    },
+    {
+      "region": "Ica",
+      "lat": -14.2,
+      "lon": -75.7,
+      "victimizacion": 21.3,
+      "homicidios": 3.8,
+      "percepcion": 61.5,
+      "riesgo": 26.2,
+      "semaforo": "Bajo",
+      "var_pp": -0.8
+    },
+    {
+      "region": "Ayacucho",
+      "lat": -13.9,
+      "lon": -74.0,
+      "victimizacion": 21.9,
+      "homicidios": 3.3,
+      "percepcion": 59.0,
+      "riesgo": 23.0,
+      "semaforo": "Bajo",
+      "var_pp": 1.1
+    },
+    {
+      "region": "Puno",
+      "lat": -15.0,
+      "lon": -70.0,
+      "victimizacion": 20.5,
+      "homicidios": 2.8,
+      "percepcion": 51.9,
+      "riesgo": 13.0,
+      "semaforo": "Bajo",
+      "var_pp": -1.0
+    },
+    {
+      "region": "San Martín",
+      "lat": -7.0,
+      "lon": -76.7,
+      "victimizacion": 19.8,
+      "homicidios": 2.3,
+      "percepcion": 50.5,
+      "riesgo": 7.0,
+      "semaforo": "Bajo",
+      "var_pp": 1.4
+    },
+    {
+      "region": "Tumbes",
+      "lat": -3.8,
+      "lon": -80.4,
+      "victimizacion": 18.4,
+      "homicidios": 2.8,
+      "percepcion": 47.5,
+      "riesgo": 6.0,
+      "semaforo": "Bajo",
+      "var_pp": 1.4
+    },
+    {
+      "region": "Ucayali",
+      "lat": -9.5,
+      "lon": -73.5,
+      "victimizacion": 18.1,
+      "homicidios": 2.3,
+      "percepcion": 43.6,
+      "riesgo": 0.0,
+      "semaforo": "Bajo",
+      "var_pp": 0.8
+    }
+  ],
+  "ranking": [
+    {
+      "region": "Piura",
+      "riesgo": 91.3,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Arequipa",
+      "riesgo": 86.6,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "La Libertad",
+      "riesgo": 86.3,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Cajamarca",
+      "riesgo": 82.9,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Callao",
+      "riesgo": 82.4,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Huancavelica",
+      "riesgo": 81.8,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Áncash",
+      "riesgo": 76.5,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Junín",
+      "riesgo": 75.2,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Lima",
+      "riesgo": 72.9,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Madre de Dios",
+      "riesgo": 72.4,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Apurímac",
+      "riesgo": 72.0,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Cusco",
+      "riesgo": 70.5,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Moquegua",
+      "riesgo": 66.3,
+      "semaforo": "Alto"
+    },
+    {
+      "region": "Pasco",
+      "riesgo": 55.3,
+      "semaforo": "Medio"
+    },
+    {
+      "region": "Amazonas",
+      "riesgo": 49.2,
+      "semaforo": "Medio"
+    },
+    {
+      "region": "Tacna",
+      "riesgo": 45.4,
+      "semaforo": "Medio"
+    },
+    {
+      "region": "Huánuco",
+      "riesgo": 41.9,
+      "semaforo": "Medio"
+    },
+    {
+      "region": "Loreto",
+      "riesgo": 36.9,
+      "semaforo": "Medio"
+    },
+    {
+      "region": "Lambayeque",
+      "riesgo": 32.3,
+      "semaforo": "Medio"
+    },
+    {
+      "region": "Ica",
+      "riesgo": 26.2,
+      "semaforo": "Bajo"
+    },
+    {
+      "region": "Ayacucho",
+      "riesgo": 23.0,
+      "semaforo": "Bajo"
+    },
+    {
+      "region": "Puno",
+      "riesgo": 13.0,
+      "semaforo": "Bajo"
+    },
+    {
+      "region": "San Martín",
+      "riesgo": 7.0,
+      "semaforo": "Bajo"
+    },
+    {
+      "region": "Tumbes",
+      "riesgo": 6.0,
+      "semaforo": "Bajo"
+    },
+    {
+      "region": "Ucayali",
+      "riesgo": 0.0,
+      "semaforo": "Bajo"
+    }
+  ],
+  "nacional": {
+    "periodos": [
+      "2018-S1",
+      "2018-S2",
+      "2019-S1",
+      "2019-S2",
+      "2020-S1",
+      "2020-S2",
+      "2021-S1",
+      "2021-S2",
+      "2022-S1",
+      "2022-S2",
+      "2023-S1",
+      "2023-S2",
+      "2024-S1",
+      "2024-S2",
+      "2025-S1",
+      "2025-S2"
+    ],
+    "victimizacion": [
+      26.0,
+      25.9,
+      26.5,
+      25.7,
+      26.9,
+      27.0,
+      26.3,
+      26.5,
+      26.8,
+      26.8,
+      27.8,
+      27.7,
+      27.2,
+      27.7,
+      27.8,
+      27.8
+    ]
+  },
+  "series": {
+    "Amazonas": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        25.4,
+        25.7,
+        26.3,
+        26.6,
+        26.2,
+        25.3,
+        25.7,
+        25.3,
+        24.5,
+        27.1,
+        27.5,
+        29.6,
+        26.0,
+        26.2,
+        29.3,
+        25.7
+      ],
+      "homicidios": [
+        3.6,
+        3.4,
+        3.7,
+        3.6,
+        3.9,
+        3.7,
+        3.9,
+        4.9,
+        3.4,
+        4.8,
+        4.5,
+        4.3,
+        3.9,
+        4.0,
+        4.5,
+        5.2
+      ]
+    },
+    "Apurímac": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        28.5,
+        27.6,
+        26.0,
+        28.3,
+        28.0,
+        29.3,
+        27.8,
+        30.7,
+        29.2,
+        28.2,
+        30.0,
+        29.8,
+        29.2,
+        30.2,
+        31.7,
+        30.1
+      ],
+      "homicidios": [
+        3.9,
+        3.4,
+        5.4,
+        3.9,
+        4.5,
+        5.6,
+        3.2,
+        5.1,
+        5.3,
+        4.6,
+        4.6,
+        4.2,
+        4.8,
+        6.1,
+        5.9,
+        5.9
+      ]
+    },
+    "Arequipa": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        34.8,
+        32.2,
+        33.8,
+        32.6,
+        33.6,
+        37.8,
+        34.8,
+        34.7,
+        32.7,
+        33.7,
+        37.1,
+        37.1,
+        36.3,
+        34.8,
+        36.0,
+        35.9
+      ],
+      "homicidios": [
+        5.9,
+        5.7,
+        5.8,
+        5.6,
+        5.2,
+        8.2,
+        6.1,
+        6.4,
+        5.9,
+        4.9,
+        6.6,
+        6.1,
+        8.8,
+        5.7,
+        6.9,
+        5.2
+      ]
+    },
+    "Ayacucho": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        19.6,
+        19.6,
+        22.6,
+        19.7,
+        20.6,
+        21.1,
+        20.5,
+        19.1,
+        23.3,
+        21.6,
+        20.0,
+        22.7,
+        21.7,
+        21.5,
+        20.8,
+        21.9
+      ],
+      "homicidios": [
+        3.3,
+        3.9,
+        4.1,
+        3.8,
+        3.5,
+        3.0,
+        2.9,
+        3.6,
+        2.7,
+        3.1,
+        2.7,
+        3.1,
+        4.4,
+        3.3,
+        2.3,
+        3.3
+      ]
+    },
+    "Cajamarca": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        29.9,
+        29.4,
+        32.6,
+        29.6,
+        31.1,
+        28.1,
+        27.7,
+        32.4,
+        29.7,
+        30.1,
+        33.1,
+        33.9,
+        31.1,
+        29.5,
+        29.4,
+        31.7
+      ],
+      "homicidios": [
+        5.5,
+        4.5,
+        5.9,
+        4.9,
+        5.1,
+        3.7,
+        5.1,
+        5.0,
+        4.8,
+        4.8,
+        6.0,
+        5.0,
+        4.8,
+        4.2,
+        3.9,
+        7.0
+      ]
+    },
+    "Callao": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        29.0,
+        29.9,
+        29.9,
+        28.5,
+        30.9,
+        30.6,
+        31.4,
+        30.3,
+        32.4,
+        27.4,
+        30.6,
+        29.1,
+        29.7,
+        30.4,
+        27.8,
+        32.0
+      ],
+      "homicidios": [
+        4.9,
+        5.9,
+        5.6,
+        3.8,
+        5.3,
+        5.6,
+        5.3,
+        5.9,
+        4.5,
+        4.3,
+        5.2,
+        5.9,
+        5.6,
+        4.4,
+        5.2,
+        6.5
+      ]
+    },
+    "Cusco": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        31.3,
+        28.0,
+        30.4,
+        30.3,
+        30.1,
+        30.0,
+        31.3,
+        29.1,
+        29.7,
+        31.0,
+        33.7,
+        32.4,
+        27.2,
+        33.9,
+        31.5,
+        32.9
+      ],
+      "homicidios": [
+        6.1,
+        5.3,
+        3.9,
+        4.6,
+        5.5,
+        4.2,
+        4.1,
+        5.8,
+        4.4,
+        5.2,
+        4.2,
+        5.1,
+        4.5,
+        6.4,
+        4.0,
+        4.7
+      ]
+    },
+    "Huancavelica": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        25.9,
+        30.0,
+        27.9,
+        31.3,
+        30.0,
+        28.8,
+        27.4,
+        30.9,
+        28.0,
+        28.5,
+        31.2,
+        30.9,
+        28.4,
+        27.6,
+        30.7,
+        31.9
+      ],
+      "homicidios": [
+        4.0,
+        5.6,
+        5.0,
+        4.6,
+        5.9,
+        4.6,
+        5.7,
+        6.1,
+        3.6,
+        4.4,
+        5.1,
+        4.7,
+        4.0,
+        3.7,
+        6.2,
+        6.3
+      ]
+    },
+    "Huánuco": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        23.1,
+        22.1,
+        23.0,
+        24.5,
+        25.0,
+        23.5,
+        23.7,
+        23.4,
+        23.5,
+        23.7,
+        23.7,
+        22.8,
+        25.0,
+        24.8,
+        26.2,
+        25.1
+      ],
+      "homicidios": [
+        3.6,
+        4.2,
+        3.9,
+        4.0,
+        4.1,
+        5.4,
+        3.9,
+        4.1,
+        4.2,
+        4.5,
+        4.3,
+        3.7,
+        3.6,
+        2.8,
+        3.9,
+        4.1
+      ]
+    },
+    "Ica": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        20.5,
+        22.5,
+        23.1,
+        21.0,
+        19.8,
+        23.5,
+        21.9,
+        21.5,
+        22.5,
+        21.4,
+        21.9,
+        20.2,
+        21.9,
+        21.5,
+        22.1,
+        21.3
+      ],
+      "homicidios": [
+        3.6,
+        3.1,
+        3.7,
+        3.5,
+        3.0,
+        3.8,
+        3.3,
+        3.6,
+        4.4,
+        3.5,
+        4.5,
+        3.0,
+        3.7,
+        3.0,
+        4.9,
+        3.8
+      ]
+    },
+    "Junín": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        30.1,
+        30.2,
+        28.5,
+        27.9,
+        33.3,
+        31.7,
+        29.3,
+        31.3,
+        28.6,
+        30.4,
+        33.6,
+        32.8,
+        31.6,
+        32.6,
+        29.9,
+        31.3
+      ],
+      "homicidios": [
+        4.7,
+        5.7,
+        4.0,
+        5.1,
+        6.9,
+        4.9,
+        4.5,
+        5.9,
+        5.8,
+        4.8,
+        7.1,
+        5.2,
+        4.3,
+        5.9,
+        5.8,
+        5.6
+      ]
+    },
+    "La Libertad": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        32.1,
+        31.2,
+        33.7,
+        31.5,
+        30.4,
+        32.7,
+        31.0,
+        30.6,
+        31.7,
+        30.7,
+        33.7,
+        31.3,
+        32.3,
+        33.4,
+        33.1,
+        34.0
+      ],
+      "homicidios": [
+        5.1,
+        5.0,
+        5.8,
+        6.1,
+        5.4,
+        3.8,
+        5.1,
+        5.7,
+        5.4,
+        5.1,
+        7.9,
+        3.0,
+        4.8,
+        3.9,
+        5.5,
+        5.8
+      ]
+    },
+    "Lambayeque": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        21.6,
+        23.0,
+        22.6,
+        22.1,
+        22.6,
+        24.4,
+        21.2,
+        21.4,
+        21.3,
+        23.7,
+        22.9,
+        24.3,
+        25.2,
+        24.7,
+        23.9,
+        22.6
+      ],
+      "homicidios": [
+        3.8,
+        3.3,
+        3.0,
+        3.9,
+        3.7,
+        3.9,
+        2.8,
+        3.1,
+        3.6,
+        3.5,
+        4.6,
+        3.9,
+        3.9,
+        4.8,
+        3.7,
+        4.1
+      ]
+    },
+    "Lima": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        28.8,
+        30.9,
+        28.9,
+        29.3,
+        31.2,
+        30.2,
+        28.1,
+        30.9,
+        29.7,
+        32.1,
+        32.7,
+        32.2,
+        31.6,
+        33.6,
+        32.7,
+        33.9
+      ],
+      "homicidios": [
+        4.9,
+        4.4,
+        4.2,
+        5.2,
+        5.0,
+        4.6,
+        4.4,
+        5.5,
+        4.5,
+        6.8,
+        5.8,
+        5.5,
+        7.0,
+        6.7,
+        5.3,
+        4.7
+      ]
+    },
+    "Loreto": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        25.1,
+        25.2,
+        25.3,
+        22.8,
+        26.0,
+        25.7,
+        24.3,
+        22.7,
+        28.3,
+        23.9,
+        25.9,
+        25.0,
+        26.6,
+        26.3,
+        26.7,
+        25.4
+      ],
+      "homicidios": [
+        4.5,
+        3.7,
+        4.4,
+        4.9,
+        4.3,
+        5.0,
+        4.4,
+        4.1,
+        6.3,
+        3.3,
+        3.9,
+        4.3,
+        3.8,
+        3.8,
+        3.8,
+        3.5
+      ]
+    },
+    "Madre de Dios": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        32.8,
+        29.8,
+        32.0,
+        32.6,
+        31.5,
+        31.1,
+        35.1,
+        31.4,
+        34.2,
+        34.2,
+        30.1,
+        31.8,
+        33.2,
+        34.7,
+        36.3,
+        33.9
+      ],
+      "homicidios": [
+        4.6,
+        5.6,
+        5.7,
+        5.5,
+        4.6,
+        4.2,
+        6.0,
+        5.5,
+        5.9,
+        6.8,
+        4.0,
+        5.7,
+        5.3,
+        6.1,
+        5.8,
+        4.6
+      ]
+    },
+    "Moquegua": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        29.1,
+        28.1,
+        26.5,
+        27.6,
+        29.7,
+        29.8,
+        28.5,
+        29.4,
+        28.8,
+        30.1,
+        32.8,
+        29.2,
+        30.0,
+        31.2,
+        32.0,
+        30.3
+      ],
+      "homicidios": [
+        4.2,
+        5.2,
+        4.7,
+        3.7,
+        4.5,
+        3.8,
+        4.6,
+        5.3,
+        5.3,
+        5.5,
+        4.2,
+        4.5,
+        5.1,
+        4.6,
+        5.3,
+        5.5
+      ]
+    },
+    "Pasco": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        25.2,
+        27.6,
+        27.1,
+        24.4,
+        26.2,
+        26.4,
+        26.5,
+        26.7,
+        26.7,
+        28.7,
+        26.6,
+        25.9,
+        26.9,
+        26.4,
+        28.1,
+        26.4
+      ],
+      "homicidios": [
+        4.1,
+        4.6,
+        4.4,
+        3.9,
+        4.7,
+        4.0,
+        4.6,
+        4.4,
+        3.9,
+        5.3,
+        5.6,
+        4.5,
+        5.4,
+        5.0,
+        5.0,
+        5.5
+      ]
+    },
+    "Piura": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        28.4,
+        26.8,
+        33.1,
+        30.5,
+        32.8,
+        35.5,
+        32.1,
+        32.3,
+        33.7,
+        32.3,
+        33.7,
+        34.6,
+        32.7,
+        34.8,
+        32.7,
+        34.9
+      ],
+      "homicidios": [
+        5.3,
+        4.1,
+        7.4,
+        5.9,
+        5.7,
+        7.7,
+        5.4,
+        5.3,
+        5.9,
+        6.1,
+        5.9,
+        5.7,
+        5.2,
+        5.0,
+        6.9,
+        6.2
+      ]
+    },
+    "Puno": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        20.2,
+        18.6,
+        19.5,
+        18.7,
+        20.7,
+        21.3,
+        20.7,
+        19.6,
+        20.8,
+        20.8,
+        20.8,
+        21.8,
+        19.5,
+        19.7,
+        21.5,
+        20.5
+      ],
+      "homicidios": [
+        3.4,
+        3.6,
+        3.2,
+        3.8,
+        4.5,
+        3.5,
+        2.9,
+        3.5,
+        2.9,
+        3.6,
+        3.1,
+        3.1,
+        2.7,
+        3.2,
+        3.5,
+        2.8
+      ]
+    },
+    "San Martín": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        18.5,
+        18.7,
+        19.8,
+        17.0,
+        20.1,
+        18.5,
+        19.2,
+        18.7,
+        18.7,
+        16.9,
+        19.0,
+        20.1,
+        19.8,
+        18.8,
+        18.4,
+        19.8
+      ],
+      "homicidios": [
+        3.0,
+        3.5,
+        3.8,
+        2.7,
+        3.3,
+        3.0,
+        3.3,
+        4.1,
+        2.8,
+        2.5,
+        3.4,
+        3.1,
+        2.8,
+        2.3,
+        2.7,
+        2.3
+      ]
+    },
+    "Tacna": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        25.1,
+        26.6,
+        25.8,
+        24.6,
+        26.0,
+        26.2,
+        27.0,
+        25.6,
+        25.6,
+        28.3,
+        27.8,
+        27.6,
+        27.2,
+        28.7,
+        28.5,
+        26.2
+      ],
+      "homicidios": [
+        4.2,
+        4.0,
+        4.1,
+        4.1,
+        4.8,
+        4.2,
+        5.0,
+        4.0,
+        2.8,
+        4.4,
+        5.7,
+        5.8,
+        5.7,
+        4.2,
+        4.0,
+        4.1
+      ]
+    },
+    "Tumbes": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        17.8,
+        16.8,
+        17.5,
+        16.8,
+        17.3,
+        16.9,
+        17.2,
+        16.9,
+        18.2,
+        16.2,
+        18.2,
+        18.1,
+        16.7,
+        18.4,
+        17.0,
+        18.4
+      ],
+      "homicidios": [
+        2.9,
+        2.2,
+        2.8,
+        2.5,
+        2.6,
+        3.2,
+        2.8,
+        2.1,
+        3.3,
+        2.8,
+        3.6,
+        4.2,
+        2.4,
+        2.8,
+        3.1,
+        2.8
+      ]
+    },
+    "Ucayali": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        16.3,
+        17.3,
+        16.0,
+        16.7,
+        17.3,
+        16.3,
+        16.1,
+        16.4,
+        17.4,
+        16.7,
+        17.8,
+        17.7,
+        17.2,
+        18.1,
+        17.3,
+        18.1
+      ],
+      "homicidios": [
+        2.5,
+        3.0,
+        2.7,
+        2.4,
+        2.7,
+        2.8,
+        2.6,
+        2.4,
+        2.9,
+        2.4,
+        2.6,
+        3.3,
+        3.4,
+        3.8,
+        1.9,
+        2.3
+      ]
+    },
+    "Áncash": {
+      "periodos": [
+        "2018-S1",
+        "2018-S2",
+        "2019-S1",
+        "2019-S2",
+        "2020-S1",
+        "2020-S2",
+        "2021-S1",
+        "2021-S2",
+        "2022-S1",
+        "2022-S2",
+        "2023-S1",
+        "2023-S2",
+        "2024-S1",
+        "2024-S2",
+        "2025-S1",
+        "2025-S2"
+      ],
+      "victimizacion": [
+        30.3,
+        28.9,
+        31.1,
+        27.8,
+        31.2,
+        31.4,
+        28.6,
+        32.4,
+        29.7,
+        31.5,
+        31.5,
+        31.7,
+        32.5,
+        31.0,
+        30.3,
+        31.3
+      ],
+      "homicidios": [
+        5.7,
+        5.1,
+        5.2,
+        5.6,
+        5.2,
+        4.5,
+        5.3,
+        5.5,
+        5.4,
+        4.5,
+        5.1,
+        4.3,
+        4.2,
+        5.0,
+        4.8,
+        5.9
+      ]
+    }
+  },
+  "por_periodo": {
+    "2018-S1": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 25.4,
+        "homicidios": 3.6,
+        "riesgo": 42.8,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 28.5,
+        "homicidios": 3.9,
+        "riesgo": 56.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 34.8,
+        "homicidios": 5.9,
+        "riesgo": 98.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 19.6,
+        "homicidios": 3.3,
+        "riesgo": 18.1,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 29.9,
+        "homicidios": 5.5,
+        "riesgo": 76.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 29.0,
+        "homicidios": 4.9,
+        "riesgo": 66.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 31.3,
+        "homicidios": 6.1,
+        "riesgo": 85.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 25.9,
+        "homicidios": 4.0,
+        "riesgo": 45.6,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 23.1,
+        "homicidios": 3.6,
+        "riesgo": 32.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 20.5,
+        "homicidios": 3.6,
+        "riesgo": 26.5,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 30.1,
+        "homicidios": 4.7,
+        "riesgo": 67.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 32.1,
+        "homicidios": 5.1,
+        "riesgo": 78.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 21.6,
+        "homicidios": 3.8,
+        "riesgo": 29.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 28.8,
+        "homicidios": 4.9,
+        "riesgo": 68.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 25.1,
+        "homicidios": 4.5,
+        "riesgo": 49.7,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 32.8,
+        "homicidios": 4.6,
+        "riesgo": 74.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 29.1,
+        "homicidios": 4.2,
+        "riesgo": 62.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 25.2,
+        "homicidios": 4.1,
+        "riesgo": 47.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 28.4,
+        "homicidios": 5.3,
+        "riesgo": 68.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 20.2,
+        "homicidios": 3.4,
+        "riesgo": 23.7,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 18.5,
+        "homicidios": 3.0,
+        "riesgo": 13.5,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 25.1,
+        "homicidios": 4.2,
+        "riesgo": 46.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 17.8,
+        "homicidios": 2.9,
+        "riesgo": 10.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 16.3,
+        "homicidios": 2.5,
+        "riesgo": 0.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 30.3,
+        "homicidios": 5.7,
+        "riesgo": 77.3,
+        "semaforo": "Alto"
+      }
+    ],
+    "2018-S2": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 25.7,
+        "homicidios": 3.4,
+        "riesgo": 46.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 27.6,
+        "homicidios": 3.4,
+        "riesgo": 56.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 32.2,
+        "homicidios": 5.7,
+        "riesgo": 96.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 19.6,
+        "homicidios": 3.9,
+        "riesgo": 30.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 29.4,
+        "homicidios": 4.5,
+        "riesgo": 71.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 29.9,
+        "homicidios": 5.9,
+        "riesgo": 87.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 28.0,
+        "homicidios": 5.3,
+        "riesgo": 77.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 30.0,
+        "homicidios": 5.6,
+        "riesgo": 88.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 22.1,
+        "homicidios": 4.2,
+        "riesgo": 39.6,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 22.5,
+        "homicidios": 3.1,
+        "riesgo": 32.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 30.2,
+        "homicidios": 5.7,
+        "riesgo": 87.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 31.2,
+        "homicidios": 5.0,
+        "riesgo": 88.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 23.0,
+        "homicidios": 3.3,
+        "riesgo": 35.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 30.9,
+        "homicidios": 4.4,
+        "riesgo": 78.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 25.2,
+        "homicidios": 3.7,
+        "riesgo": 47.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 29.8,
+        "homicidios": 5.6,
+        "riesgo": 85.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 28.1,
+        "homicidios": 5.2,
+        "riesgo": 74.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 27.6,
+        "homicidios": 4.6,
+        "riesgo": 67.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 26.8,
+        "homicidios": 4.1,
+        "riesgo": 57.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 18.6,
+        "homicidios": 3.6,
+        "riesgo": 23.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 18.7,
+        "homicidios": 3.5,
+        "riesgo": 23.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 26.6,
+        "homicidios": 4.0,
+        "riesgo": 56.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 16.8,
+        "homicidios": 2.2,
+        "riesgo": 0.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 17.3,
+        "homicidios": 3.0,
+        "riesgo": 10.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 28.9,
+        "homicidios": 5.1,
+        "riesgo": 77.5,
+        "semaforo": "Alto"
+      }
+    ],
+    "2019-S1": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 26.3,
+        "homicidios": 3.7,
+        "riesgo": 43.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 26.0,
+        "homicidios": 5.4,
+        "riesgo": 57.9,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 33.8,
+        "homicidios": 5.8,
+        "riesgo": 84.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 22.6,
+        "homicidios": 4.1,
+        "riesgo": 33.6,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 32.6,
+        "homicidios": 5.9,
+        "riesgo": 82.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 29.9,
+        "homicidios": 5.6,
+        "riesgo": 73.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 30.4,
+        "homicidios": 3.9,
+        "riesgo": 58.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 27.9,
+        "homicidios": 5.0,
+        "riesgo": 61.9,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 23.0,
+        "homicidios": 3.9,
+        "riesgo": 35.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 23.1,
+        "homicidios": 3.7,
+        "riesgo": 31.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 28.5,
+        "homicidios": 4.0,
+        "riesgo": 55.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 33.7,
+        "homicidios": 5.8,
+        "riesgo": 87.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 22.6,
+        "homicidios": 3.0,
+        "riesgo": 26.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 28.9,
+        "homicidios": 4.2,
+        "riesgo": 55.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 25.3,
+        "homicidios": 4.4,
+        "riesgo": 45.9,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 32.0,
+        "homicidios": 5.7,
+        "riesgo": 81.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 26.5,
+        "homicidios": 4.7,
+        "riesgo": 54.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 27.1,
+        "homicidios": 4.4,
+        "riesgo": 52.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 33.1,
+        "homicidios": 7.4,
+        "riesgo": 92.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 19.5,
+        "homicidios": 3.2,
+        "riesgo": 17.8,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 19.8,
+        "homicidios": 3.8,
+        "riesgo": 22.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 25.8,
+        "homicidios": 4.1,
+        "riesgo": 47.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 17.5,
+        "homicidios": 2.8,
+        "riesgo": 6.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 16.0,
+        "homicidios": 2.7,
+        "riesgo": 0.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 31.1,
+        "homicidios": 5.2,
+        "riesgo": 70.3,
+        "semaforo": "Alto"
+      }
+    ],
+    "2019-S2": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 26.6,
+        "homicidios": 3.6,
+        "riesgo": 50.9,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 28.3,
+        "homicidios": 3.9,
+        "riesgo": 62.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 32.6,
+        "homicidios": 5.6,
+        "riesgo": 95.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 19.7,
+        "homicidios": 3.8,
+        "riesgo": 26.3,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 29.6,
+        "homicidios": 4.9,
+        "riesgo": 75.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 28.5,
+        "homicidios": 3.8,
+        "riesgo": 62.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 30.3,
+        "homicidios": 4.6,
+        "riesgo": 75.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 31.3,
+        "homicidios": 4.6,
+        "riesgo": 80.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 24.5,
+        "homicidios": 4.0,
+        "riesgo": 48.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 21.0,
+        "homicidios": 3.5,
+        "riesgo": 27.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 27.9,
+        "homicidios": 5.1,
+        "riesgo": 70.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 31.5,
+        "homicidios": 6.1,
+        "riesgo": 94.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 22.1,
+        "homicidios": 3.9,
+        "riesgo": 36.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 29.3,
+        "homicidios": 5.2,
+        "riesgo": 80.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 22.8,
+        "homicidios": 4.9,
+        "riesgo": 50.8,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 32.6,
+        "homicidios": 5.5,
+        "riesgo": 92.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 27.6,
+        "homicidios": 3.7,
+        "riesgo": 55.6,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 24.4,
+        "homicidios": 3.9,
+        "riesgo": 45.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 30.5,
+        "homicidios": 5.9,
+        "riesgo": 89.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 18.7,
+        "homicidios": 3.8,
+        "riesgo": 21.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 17.0,
+        "homicidios": 2.7,
+        "riesgo": 4.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 24.6,
+        "homicidios": 4.1,
+        "riesgo": 48.8,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 16.8,
+        "homicidios": 2.5,
+        "riesgo": 1.5,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 16.7,
+        "homicidios": 2.4,
+        "riesgo": 0.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 27.8,
+        "homicidios": 5.6,
+        "riesgo": 75.8,
+        "semaforo": "Medio"
+      }
+    ],
+    "2020-S1": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 26.2,
+        "homicidios": 3.9,
+        "riesgo": 49.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 28.0,
+        "homicidios": 4.5,
+        "riesgo": 58.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 33.6,
+        "homicidios": 5.2,
+        "riesgo": 84.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 20.6,
+        "homicidios": 3.5,
+        "riesgo": 21.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 31.1,
+        "homicidios": 5.1,
+        "riesgo": 77.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 30.9,
+        "homicidios": 5.3,
+        "riesgo": 78.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 30.1,
+        "homicidios": 5.5,
+        "riesgo": 71.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 30.0,
+        "homicidios": 5.9,
+        "riesgo": 80.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 25.0,
+        "homicidios": 4.1,
+        "riesgo": 45.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 19.8,
+        "homicidios": 3.0,
+        "riesgo": 15.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 33.3,
+        "homicidios": 6.9,
+        "riesgo": 99.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 30.4,
+        "homicidios": 5.4,
+        "riesgo": 77.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 22.6,
+        "homicidios": 3.7,
+        "riesgo": 29.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 31.2,
+        "homicidios": 5.0,
+        "riesgo": 77.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 26.0,
+        "homicidios": 4.3,
+        "riesgo": 50.7,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 31.5,
+        "homicidios": 4.6,
+        "riesgo": 71.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 29.7,
+        "homicidios": 4.5,
+        "riesgo": 62.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 26.2,
+        "homicidios": 4.7,
+        "riesgo": 53.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 32.8,
+        "homicidios": 5.7,
+        "riesgo": 88.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 20.7,
+        "homicidios": 4.5,
+        "riesgo": 28.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 20.1,
+        "homicidios": 3.3,
+        "riesgo": 18.8,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 26.0,
+        "homicidios": 4.8,
+        "riesgo": 54.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 17.3,
+        "homicidios": 2.6,
+        "riesgo": 2.4,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 17.3,
+        "homicidios": 2.7,
+        "riesgo": 0.8,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 31.2,
+        "homicidios": 5.2,
+        "riesgo": 75.7,
+        "semaforo": "Alto"
+      }
+    ],
+    "2020-S2": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 25.3,
+        "homicidios": 3.7,
+        "riesgo": 32.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 29.3,
+        "homicidios": 5.6,
+        "riesgo": 60.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 37.8,
+        "homicidios": 8.2,
+        "riesgo": 98.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 21.1,
+        "homicidios": 3.0,
+        "riesgo": 14.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 28.1,
+        "homicidios": 3.7,
+        "riesgo": 41.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 30.6,
+        "homicidios": 5.6,
+        "riesgo": 63.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 30.0,
+        "homicidios": 4.2,
+        "riesgo": 52.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 28.8,
+        "homicidios": 4.6,
+        "riesgo": 48.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 23.5,
+        "homicidios": 5.4,
+        "riesgo": 40.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 23.5,
+        "homicidios": 3.8,
+        "riesgo": 27.5,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 31.7,
+        "homicidios": 4.9,
+        "riesgo": 59.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 32.7,
+        "homicidios": 3.8,
+        "riesgo": 59.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 24.4,
+        "homicidios": 3.9,
+        "riesgo": 31.9,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 30.2,
+        "homicidios": 4.6,
+        "riesgo": 55.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 25.7,
+        "homicidios": 5.0,
+        "riesgo": 45.7,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 31.1,
+        "homicidios": 4.2,
+        "riesgo": 56.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 29.8,
+        "homicidios": 3.8,
+        "riesgo": 49.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 26.4,
+        "homicidios": 4.0,
+        "riesgo": 36.6,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 35.5,
+        "homicidios": 7.7,
+        "riesgo": 91.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 21.3,
+        "homicidios": 3.5,
+        "riesgo": 18.7,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 18.5,
+        "homicidios": 3.0,
+        "riesgo": 9.3,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 26.2,
+        "homicidios": 4.2,
+        "riesgo": 39.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 16.9,
+        "homicidios": 3.2,
+        "riesgo": 3.8,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 16.3,
+        "homicidios": 2.8,
+        "riesgo": 0.8,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 31.4,
+        "homicidios": 4.5,
+        "riesgo": 57.9,
+        "semaforo": "Alto"
+      }
+    ],
+    "2021-S1": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 25.7,
+        "homicidios": 3.9,
+        "riesgo": 43.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 27.8,
+        "homicidios": 3.2,
+        "riesgo": 43.8,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 34.8,
+        "homicidios": 6.1,
+        "riesgo": 99.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 20.5,
+        "homicidios": 2.9,
+        "riesgo": 17.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 27.7,
+        "homicidios": 5.1,
+        "riesgo": 63.7,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 31.4,
+        "homicidios": 5.3,
+        "riesgo": 79.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 31.3,
+        "homicidios": 4.1,
+        "riesgo": 65.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 27.4,
+        "homicidios": 5.7,
+        "riesgo": 70.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 23.7,
+        "homicidios": 3.9,
+        "riesgo": 38.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 21.9,
+        "homicidios": 3.3,
+        "riesgo": 25.8,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 29.3,
+        "homicidios": 4.5,
+        "riesgo": 64.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 31.0,
+        "homicidios": 5.1,
+        "riesgo": 73.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 21.2,
+        "homicidios": 2.8,
+        "riesgo": 21.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 28.1,
+        "homicidios": 4.4,
+        "riesgo": 57.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 24.3,
+        "homicidios": 4.4,
+        "riesgo": 44.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 35.1,
+        "homicidios": 6.0,
+        "riesgo": 99.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 28.5,
+        "homicidios": 4.6,
+        "riesgo": 60.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 26.5,
+        "homicidios": 4.6,
+        "riesgo": 54.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 32.1,
+        "homicidios": 5.4,
+        "riesgo": 83.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 20.7,
+        "homicidios": 2.9,
+        "riesgo": 18.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 19.2,
+        "homicidios": 3.3,
+        "riesgo": 18.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 27.0,
+        "homicidios": 5.0,
+        "riesgo": 62.6,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 17.2,
+        "homicidios": 2.8,
+        "riesgo": 4.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 16.1,
+        "homicidios": 2.6,
+        "riesgo": 0.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 28.6,
+        "homicidios": 5.3,
+        "riesgo": 69.2,
+        "semaforo": "Alto"
+      }
+    ],
+    "2021-S2": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 25.3,
+        "homicidios": 4.9,
+        "riesgo": 53.6,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 30.7,
+        "homicidios": 5.1,
+        "riesgo": 77.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 34.7,
+        "homicidios": 6.4,
+        "riesgo": 99.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 19.1,
+        "homicidios": 3.6,
+        "riesgo": 21.3,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 32.4,
+        "homicidios": 5.0,
+        "riesgo": 82.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 30.3,
+        "homicidios": 5.9,
+        "riesgo": 80.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 29.1,
+        "homicidios": 5.8,
+        "riesgo": 72.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 30.9,
+        "homicidios": 6.1,
+        "riesgo": 84.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 23.4,
+        "homicidios": 4.1,
+        "riesgo": 40.6,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 21.5,
+        "homicidios": 3.6,
+        "riesgo": 30.3,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 31.3,
+        "homicidios": 5.9,
+        "riesgo": 83.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 30.6,
+        "homicidios": 5.7,
+        "riesgo": 78.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 21.4,
+        "homicidios": 3.1,
+        "riesgo": 25.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 30.9,
+        "homicidios": 5.5,
+        "riesgo": 76.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 22.7,
+        "homicidios": 4.1,
+        "riesgo": 41.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 31.4,
+        "homicidios": 5.5,
+        "riesgo": 83.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 29.4,
+        "homicidios": 5.3,
+        "riesgo": 70.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 26.7,
+        "homicidios": 4.4,
+        "riesgo": 57.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 32.3,
+        "homicidios": 5.3,
+        "riesgo": 80.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 19.6,
+        "homicidios": 3.5,
+        "riesgo": 22.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 18.7,
+        "homicidios": 4.1,
+        "riesgo": 26.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 25.6,
+        "homicidios": 4.0,
+        "riesgo": 48.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 16.9,
+        "homicidios": 2.1,
+        "riesgo": 1.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 16.4,
+        "homicidios": 2.4,
+        "riesgo": 2.4,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 32.4,
+        "homicidios": 5.5,
+        "riesgo": 81.2,
+        "semaforo": "Alto"
+      }
+    ],
+    "2022-S1": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 24.5,
+        "homicidios": 3.4,
+        "riesgo": 34.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 29.2,
+        "homicidios": 5.3,
+        "riesgo": 72.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 32.7,
+        "homicidios": 5.9,
+        "riesgo": 90.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 23.3,
+        "homicidios": 2.7,
+        "riesgo": 22.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 29.7,
+        "homicidios": 4.8,
+        "riesgo": 68.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 32.4,
+        "homicidios": 4.5,
+        "riesgo": 72.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 29.7,
+        "homicidios": 4.4,
+        "riesgo": 65.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 28.0,
+        "homicidios": 3.6,
+        "riesgo": 46.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 23.5,
+        "homicidios": 4.2,
+        "riesgo": 37.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 22.5,
+        "homicidios": 4.4,
+        "riesgo": 35.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 28.6,
+        "homicidios": 5.8,
+        "riesgo": 70.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 31.7,
+        "homicidios": 5.4,
+        "riesgo": 78.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 21.3,
+        "homicidios": 3.6,
+        "riesgo": 23.8,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 29.7,
+        "homicidios": 4.5,
+        "riesgo": 65.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 28.3,
+        "homicidios": 6.3,
+        "riesgo": 76.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 34.2,
+        "homicidios": 5.9,
+        "riesgo": 96.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 28.8,
+        "homicidios": 5.3,
+        "riesgo": 67.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 26.7,
+        "homicidios": 3.9,
+        "riesgo": 44.5,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 33.7,
+        "homicidios": 5.9,
+        "riesgo": 92.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 20.8,
+        "homicidios": 2.9,
+        "riesgo": 15.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 18.7,
+        "homicidios": 2.8,
+        "riesgo": 6.1,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 25.6,
+        "homicidios": 2.8,
+        "riesgo": 31.7,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 18.2,
+        "homicidios": 3.3,
+        "riesgo": 10.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 17.4,
+        "homicidios": 2.9,
+        "riesgo": 1.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 29.7,
+        "homicidios": 5.4,
+        "riesgo": 73.1,
+        "semaforo": "Alto"
+      }
+    ],
+    "2022-S2": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 27.1,
+        "homicidios": 4.8,
+        "riesgo": 59.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 28.2,
+        "homicidios": 4.6,
+        "riesgo": 60.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 33.7,
+        "homicidios": 4.9,
+        "riesgo": 81.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 21.6,
+        "homicidios": 3.1,
+        "riesgo": 24.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 30.1,
+        "homicidios": 4.8,
+        "riesgo": 65.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 27.4,
+        "homicidios": 4.3,
+        "riesgo": 56.8,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 31.0,
+        "homicidios": 5.2,
+        "riesgo": 73.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 28.5,
+        "homicidios": 4.4,
+        "riesgo": 61.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 23.7,
+        "homicidios": 4.5,
+        "riesgo": 42.8,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 21.4,
+        "homicidios": 3.5,
+        "riesgo": 29.5,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 30.4,
+        "homicidios": 4.8,
+        "riesgo": 72.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 30.7,
+        "homicidios": 5.1,
+        "riesgo": 75.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 23.7,
+        "homicidios": 3.5,
+        "riesgo": 36.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 32.1,
+        "homicidios": 6.8,
+        "riesgo": 91.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 23.9,
+        "homicidios": 3.3,
+        "riesgo": 33.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 34.2,
+        "homicidios": 6.8,
+        "riesgo": 100.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 30.1,
+        "homicidios": 5.5,
+        "riesgo": 76.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 28.7,
+        "homicidios": 5.3,
+        "riesgo": 69.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 32.3,
+        "homicidios": 6.1,
+        "riesgo": 86.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 20.8,
+        "homicidios": 3.6,
+        "riesgo": 27.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 16.9,
+        "homicidios": 2.5,
+        "riesgo": 3.1,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 28.3,
+        "homicidios": 4.4,
+        "riesgo": 60.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 16.2,
+        "homicidios": 2.8,
+        "riesgo": 3.4,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 16.7,
+        "homicidios": 2.4,
+        "riesgo": 1.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 31.5,
+        "homicidios": 4.5,
+        "riesgo": 68.5,
+        "semaforo": "Alto"
+      }
+    ],
+    "2023-S1": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 27.5,
+        "homicidios": 4.5,
+        "riesgo": 48.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 30.0,
+        "homicidios": 4.6,
+        "riesgo": 56.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 37.1,
+        "homicidios": 6.6,
+        "riesgo": 91.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 20.0,
+        "homicidios": 2.7,
+        "riesgo": 8.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 33.1,
+        "homicidios": 6.0,
+        "riesgo": 75.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 30.6,
+        "homicidios": 5.2,
+        "riesgo": 59.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 33.7,
+        "homicidios": 4.2,
+        "riesgo": 65.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 31.2,
+        "homicidios": 5.1,
+        "riesgo": 63.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 23.7,
+        "homicidios": 4.3,
+        "riesgo": 29.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 21.9,
+        "homicidios": 4.5,
+        "riesgo": 27.4,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 33.6,
+        "homicidios": 7.1,
+        "riesgo": 81.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 33.7,
+        "homicidios": 7.9,
+        "riesgo": 87.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 22.9,
+        "homicidios": 4.6,
+        "riesgo": 30.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 32.7,
+        "homicidios": 5.8,
+        "riesgo": 71.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 25.9,
+        "homicidios": 3.9,
+        "riesgo": 38.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 30.1,
+        "homicidios": 4.0,
+        "riesgo": 53.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 32.8,
+        "homicidios": 4.2,
+        "riesgo": 65.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 26.6,
+        "homicidios": 5.6,
+        "riesgo": 49.7,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 33.7,
+        "homicidios": 5.9,
+        "riesgo": 76.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 20.8,
+        "homicidios": 3.1,
+        "riesgo": 11.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 19.0,
+        "homicidios": 3.4,
+        "riesgo": 11.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 27.8,
+        "homicidios": 5.7,
+        "riesgo": 56.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 18.2,
+        "homicidios": 3.6,
+        "riesgo": 8.7,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 17.8,
+        "homicidios": 2.6,
+        "riesgo": 0.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 31.5,
+        "homicidios": 5.1,
+        "riesgo": 64.8,
+        "semaforo": "Alto"
+      }
+    ],
+    "2023-S2": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 29.6,
+        "homicidios": 4.3,
+        "riesgo": 57.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 29.8,
+        "homicidios": 4.2,
+        "riesgo": 56.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 37.1,
+        "homicidios": 6.1,
+        "riesgo": 100.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 22.7,
+        "homicidios": 3.1,
+        "riesgo": 18.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 33.9,
+        "homicidios": 5.0,
+        "riesgo": 80.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 29.1,
+        "homicidios": 5.9,
+        "riesgo": 72.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 32.4,
+        "homicidios": 5.1,
+        "riesgo": 75.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 30.9,
+        "homicidios": 4.7,
+        "riesgo": 63.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 22.8,
+        "homicidios": 3.7,
+        "riesgo": 27.5,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 20.2,
+        "homicidios": 3.0,
+        "riesgo": 9.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 32.8,
+        "homicidios": 5.2,
+        "riesgo": 77.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 31.3,
+        "homicidios": 3.0,
+        "riesgo": 50.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 24.3,
+        "homicidios": 3.9,
+        "riesgo": 33.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 32.2,
+        "homicidios": 5.5,
+        "riesgo": 76.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 25.0,
+        "homicidios": 4.3,
+        "riesgo": 42.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 31.8,
+        "homicidios": 5.7,
+        "riesgo": 81.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 29.2,
+        "homicidios": 4.5,
+        "riesgo": 59.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 25.9,
+        "homicidios": 4.5,
+        "riesgo": 46.8,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 34.6,
+        "homicidios": 5.7,
+        "riesgo": 86.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 21.8,
+        "homicidios": 3.1,
+        "riesgo": 15.8,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 20.1,
+        "homicidios": 3.1,
+        "riesgo": 11.1,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 27.6,
+        "homicidios": 5.8,
+        "riesgo": 66.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 18.1,
+        "homicidios": 4.2,
+        "riesgo": 14.5,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 17.7,
+        "homicidios": 3.3,
+        "riesgo": 4.1,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 31.7,
+        "homicidios": 4.3,
+        "riesgo": 62.9,
+        "semaforo": "Alto"
+      }
+    ],
+    "2024-S1": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 26.0,
+        "homicidios": 3.9,
+        "riesgo": 40.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 29.2,
+        "homicidios": 4.8,
+        "riesgo": 54.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 36.3,
+        "homicidios": 8.8,
+        "riesgo": 100.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 21.7,
+        "homicidios": 4.4,
+        "riesgo": 28.1,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 31.1,
+        "homicidios": 4.8,
+        "riesgo": 60.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 29.7,
+        "homicidios": 5.6,
+        "riesgo": 62.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 27.2,
+        "homicidios": 4.5,
+        "riesgo": 48.9,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 28.4,
+        "homicidios": 4.0,
+        "riesgo": 49.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 25.0,
+        "homicidios": 3.6,
+        "riesgo": 35.7,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 21.9,
+        "homicidios": 3.7,
+        "riesgo": 25.5,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 31.6,
+        "homicidios": 4.3,
+        "riesgo": 59.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 32.3,
+        "homicidios": 4.8,
+        "riesgo": 64.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 25.2,
+        "homicidios": 3.9,
+        "riesgo": 37.5,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 31.6,
+        "homicidios": 7.0,
+        "riesgo": 77.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 26.6,
+        "homicidios": 3.8,
+        "riesgo": 40.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 33.2,
+        "homicidios": 5.3,
+        "riesgo": 72.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 30.0,
+        "homicidios": 5.1,
+        "riesgo": 61.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 26.9,
+        "homicidios": 5.4,
+        "riesgo": 49.5,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 32.7,
+        "homicidios": 5.2,
+        "riesgo": 70.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 19.5,
+        "homicidios": 2.7,
+        "riesgo": 10.7,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 19.8,
+        "homicidios": 2.8,
+        "riesgo": 13.8,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 27.2,
+        "homicidios": 5.7,
+        "riesgo": 55.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 16.7,
+        "homicidios": 2.4,
+        "riesgo": 0.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 17.2,
+        "homicidios": 3.4,
+        "riesgo": 7.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 32.5,
+        "homicidios": 4.2,
+        "riesgo": 65.1,
+        "semaforo": "Alto"
+      }
+    ],
+    "2024-S2": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 26.2,
+        "homicidios": 4.0,
+        "riesgo": 43.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 30.2,
+        "homicidios": 6.1,
+        "riesgo": 75.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 34.8,
+        "homicidios": 5.7,
+        "riesgo": 89.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 21.5,
+        "homicidios": 3.3,
+        "riesgo": 20.7,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 29.5,
+        "homicidios": 4.2,
+        "riesgo": 56.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 30.4,
+        "homicidios": 4.4,
+        "riesgo": 61.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 33.9,
+        "homicidios": 6.4,
+        "riesgo": 95.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 27.6,
+        "homicidios": 3.7,
+        "riesgo": 46.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 24.8,
+        "homicidios": 2.8,
+        "riesgo": 30.5,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 21.5,
+        "homicidios": 3.0,
+        "riesgo": 16.3,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 32.6,
+        "homicidios": 5.9,
+        "riesgo": 86.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 33.4,
+        "homicidios": 3.9,
+        "riesgo": 74.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 24.7,
+        "homicidios": 4.8,
+        "riesgo": 43.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 33.6,
+        "homicidios": 6.7,
+        "riesgo": 96.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 26.3,
+        "homicidios": 3.8,
+        "riesgo": 45.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 34.7,
+        "homicidios": 6.1,
+        "riesgo": 90.1,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 31.2,
+        "homicidios": 4.6,
+        "riesgo": 64.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 26.4,
+        "homicidios": 5.0,
+        "riesgo": 51.8,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 34.8,
+        "homicidios": 5.0,
+        "riesgo": 86.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 19.7,
+        "homicidios": 3.2,
+        "riesgo": 11.6,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 18.8,
+        "homicidios": 2.3,
+        "riesgo": 1.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 28.7,
+        "homicidios": 4.2,
+        "riesgo": 52.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 18.4,
+        "homicidios": 2.8,
+        "riesgo": 6.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 18.1,
+        "homicidios": 3.8,
+        "riesgo": 12.5,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 31.0,
+        "homicidios": 5.0,
+        "riesgo": 71.7,
+        "semaforo": "Alto"
+      }
+    ],
+    "2025-S1": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 29.3,
+        "homicidios": 4.5,
+        "riesgo": 60.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 31.7,
+        "homicidios": 5.9,
+        "riesgo": 77.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 36.0,
+        "homicidios": 6.9,
+        "riesgo": 99.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 20.8,
+        "homicidios": 2.3,
+        "riesgo": 15.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 29.4,
+        "homicidios": 3.9,
+        "riesgo": 58.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 27.8,
+        "homicidios": 5.2,
+        "riesgo": 59.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 31.5,
+        "homicidios": 4.0,
+        "riesgo": 62.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 30.7,
+        "homicidios": 6.2,
+        "riesgo": 75.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 26.2,
+        "homicidios": 3.9,
+        "riesgo": 46.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 22.1,
+        "homicidios": 4.9,
+        "riesgo": 37.8,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 29.9,
+        "homicidios": 5.8,
+        "riesgo": 73.7,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 33.1,
+        "homicidios": 5.5,
+        "riesgo": 81.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 23.9,
+        "homicidios": 3.7,
+        "riesgo": 33.1,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 32.7,
+        "homicidios": 5.3,
+        "riesgo": 78.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 26.7,
+        "homicidios": 3.8,
+        "riesgo": 43.0,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 36.3,
+        "homicidios": 5.8,
+        "riesgo": 92.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 32.0,
+        "homicidios": 5.3,
+        "riesgo": 74.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 28.1,
+        "homicidios": 5.0,
+        "riesgo": 57.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 32.7,
+        "homicidios": 6.9,
+        "riesgo": 88.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 21.5,
+        "homicidios": 3.5,
+        "riesgo": 27.7,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 18.4,
+        "homicidios": 2.7,
+        "riesgo": 9.9,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 28.5,
+        "homicidios": 4.0,
+        "riesgo": 55.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 17.0,
+        "homicidios": 3.1,
+        "riesgo": 8.4,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 17.3,
+        "homicidios": 1.9,
+        "riesgo": 1.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 30.3,
+        "homicidios": 4.8,
+        "riesgo": 63.1,
+        "semaforo": "Alto"
+      }
+    ],
+    "2025-S2": [
+      {
+        "region": "Amazonas",
+        "lat": -5.2,
+        "lon": -78.0,
+        "victimizacion": 25.7,
+        "homicidios": 5.2,
+        "riesgo": 49.2,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Apurímac",
+        "lat": -14.0,
+        "lon": -72.9,
+        "victimizacion": 30.1,
+        "homicidios": 5.9,
+        "riesgo": 72.0,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Arequipa",
+        "lat": -16.4,
+        "lon": -72.3,
+        "victimizacion": 35.9,
+        "homicidios": 5.2,
+        "riesgo": 86.6,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Ayacucho",
+        "lat": -13.9,
+        "lon": -74.0,
+        "victimizacion": 21.9,
+        "homicidios": 3.3,
+        "riesgo": 23.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Cajamarca",
+        "lat": -6.5,
+        "lon": -78.5,
+        "victimizacion": 31.7,
+        "homicidios": 7.0,
+        "riesgo": 82.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Callao",
+        "lat": -12.05,
+        "lon": -77.12,
+        "victimizacion": 32.0,
+        "homicidios": 6.5,
+        "riesgo": 82.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Cusco",
+        "lat": -13.5,
+        "lon": -71.9,
+        "victimizacion": 32.9,
+        "homicidios": 4.7,
+        "riesgo": 70.5,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huancavelica",
+        "lat": -12.9,
+        "lon": -74.9,
+        "victimizacion": 31.9,
+        "homicidios": 6.3,
+        "riesgo": 81.8,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Huánuco",
+        "lat": -9.5,
+        "lon": -76.0,
+        "victimizacion": 25.1,
+        "homicidios": 4.1,
+        "riesgo": 41.9,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Ica",
+        "lat": -14.2,
+        "lon": -75.7,
+        "victimizacion": 21.3,
+        "homicidios": 3.8,
+        "riesgo": 26.2,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Junín",
+        "lat": -11.5,
+        "lon": -75.0,
+        "victimizacion": 31.3,
+        "homicidios": 5.6,
+        "riesgo": 75.2,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "La Libertad",
+        "lat": -8.0,
+        "lon": -78.5,
+        "victimizacion": 34.0,
+        "homicidios": 5.8,
+        "riesgo": 86.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Lambayeque",
+        "lat": -6.4,
+        "lon": -79.8,
+        "victimizacion": 22.6,
+        "homicidios": 4.1,
+        "riesgo": 32.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Lima",
+        "lat": -11.8,
+        "lon": -76.8,
+        "victimizacion": 33.9,
+        "homicidios": 4.7,
+        "riesgo": 72.9,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Loreto",
+        "lat": -4.0,
+        "lon": -74.5,
+        "victimizacion": 25.4,
+        "homicidios": 3.5,
+        "riesgo": 36.9,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Madre de Dios",
+        "lat": -12.0,
+        "lon": -70.5,
+        "victimizacion": 33.9,
+        "homicidios": 4.6,
+        "riesgo": 72.4,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Moquegua",
+        "lat": -16.8,
+        "lon": -70.9,
+        "victimizacion": 30.3,
+        "homicidios": 5.5,
+        "riesgo": 66.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Pasco",
+        "lat": -10.5,
+        "lon": -75.5,
+        "victimizacion": 26.4,
+        "homicidios": 5.5,
+        "riesgo": 55.3,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Piura",
+        "lat": -5.2,
+        "lon": -80.0,
+        "victimizacion": 34.9,
+        "homicidios": 6.2,
+        "riesgo": 91.3,
+        "semaforo": "Alto"
+      },
+      {
+        "region": "Puno",
+        "lat": -15.0,
+        "lon": -70.0,
+        "victimizacion": 20.5,
+        "homicidios": 2.8,
+        "riesgo": 13.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "San Martín",
+        "lat": -7.0,
+        "lon": -76.7,
+        "victimizacion": 19.8,
+        "homicidios": 2.3,
+        "riesgo": 7.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Tacna",
+        "lat": -17.8,
+        "lon": -70.3,
+        "victimizacion": 26.2,
+        "homicidios": 4.1,
+        "riesgo": 45.4,
+        "semaforo": "Medio"
+      },
+      {
+        "region": "Tumbes",
+        "lat": -3.8,
+        "lon": -80.4,
+        "victimizacion": 18.4,
+        "homicidios": 2.8,
+        "riesgo": 6.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Ucayali",
+        "lat": -9.5,
+        "lon": -73.5,
+        "victimizacion": 18.1,
+        "homicidios": 2.3,
+        "riesgo": 0.0,
+        "semaforo": "Bajo"
+      },
+      {
+        "region": "Áncash",
+        "lat": -9.5,
+        "lon": -77.5,
+        "victimizacion": 31.3,
+        "homicidios": 5.9,
+        "riesgo": 76.5,
+        "semaforo": "Alto"
+      }
+    ]
+  }
+}

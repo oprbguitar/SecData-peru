@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecData Perú · Tablero dinámico de seguridad ciudadana</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0b1016; --panel:#141c25; --panel2:#1b2530; --line:#28343f;
+    --txt:#e9eff4; --muted:#88a0b3;
+    --alto:#e4572e; --medio:#f2a900; --bajo:#3fb27f; --accent:#5db0ff;
+    --font-d:"Archivo",system-ui,sans-serif; --font-m:"IBM Plex Mono",monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:radial-gradient(1200px 600px at 80% -10%,#16222e 0%,var(--ink) 55%);
+    color:var(--txt);font-family:var(--font-d);line-height:1.45;min-height:100vh}
+  .reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  header{padding:26px 30px 18px;border-bottom:1px solid var(--line);
+    display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px}
+  header h1{font-size:1.7rem;font-weight:900;letter-spacing:-.03em}
+  header h1 span{color:var(--accent)}
+  header .sub{color:var(--muted);font-size:.9rem;margin-top:3px}
+  header .meta{font-family:var(--font-m);font-size:.76rem;color:var(--muted);text-align:right}
+
+  .timeline{display:flex;align-items:center;gap:16px;padding:16px 30px;
+    border-bottom:1px solid var(--line);background:rgba(20,28,37,.5);flex-wrap:wrap}
+  .playbtn{background:var(--accent);color:#06121f;border:none;border-radius:50%;
+    width:42px;height:42px;font-size:1rem;cursor:pointer;font-weight:700;transition:transform .15s}
+  .playbtn:hover{transform:scale(1.08)}
+  .timeline input[type=range]{flex:1;min-width:200px;accent-color:var(--accent);cursor:pointer}
+  .timeline .perlabel{font-family:var(--font-m);font-weight:600;font-size:1.05rem;
+    min-width:92px;text-align:center;color:var(--accent)}
+
+  .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:20px 30px 4px}
+  @media(max-width:760px){.kpis{grid-template-columns:1fr}}
+  .kpi{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:16px 18px;
+    position:relative;overflow:hidden}
+  .kpi::after{content:"";position:absolute;left:0;top:0;height:100%;width:4px}
+  .kpi.alto::after{background:var(--alto)} .kpi.medio::after{background:var(--medio)} .kpi.bajo::after{background:var(--bajo)}
+  .kpi .n{font-family:var(--font-m);font-size:2rem;font-weight:600;transition:color .3s}
+  .kpi .l{font-size:.76rem;color:var(--muted);margin-top:3px}
+  .kpi.alto .n{color:var(--alto)} .kpi.medio .n{color:var(--medio)} .kpi.bajo .n{color:var(--bajo)}
+
+  .wrap{display:grid;grid-template-columns:1.3fr .9fr;gap:18px;padding:18px 30px}
+  @media(max-width:980px){.wrap{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.25)}
+  .card h2{font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.09em;
+    color:var(--muted);padding:14px 18px;border-bottom:1px solid var(--line)}
+  #map{height:480px;width:100%}
+  .rank{max-height:452px;overflow-y:auto}
+  .rank table{width:100%;border-collapse:collapse;font-size:.88rem}
+  .rank th{position:sticky;top:0;background:var(--panel2);color:var(--muted);font-weight:600;
+    text-align:left;padding:9px 18px;font-size:.7rem;text-transform:uppercase;letter-spacing:.07em}
+  .rank td{padding:10px 18px;border-top:1px solid var(--line);transition:background .2s}
+  .rank tr{cursor:pointer} .rank tr:hover{background:var(--panel2)}
+  .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:8px;vertical-align:middle}
+  .dot.Alto{background:var(--alto)} .dot.Medio{background:var(--medio)} .dot.Bajo{background:var(--bajo)}
+  .score{font-family:var(--font-m);font-weight:600}
+  .barcell{position:relative}
+  .bar{position:absolute;left:0;top:0;height:100%;opacity:.16;transition:width .5s}
+  .legend{font-family:var(--font-m);font-size:.72rem;color:var(--muted);
+    padding:11px 18px;display:flex;gap:18px;flex-wrap:wrap;border-top:1px solid var(--line)}
+  .legend .Alto{color:var(--alto)} .legend .Medio{color:var(--medio)} .legend .Bajo{color:var(--bajo)}
+  .trend{padding:16px}
+  footer{padding:18px 30px;color:var(--muted);font-size:.78rem;border-top:1px solid var(--line);
+    font-family:var(--font-m);line-height:1.7}
+  footer a{color:var(--accent);text-decoration:none}
+  .leaflet-popup-content{font-family:var(--font-m);font-size:.8rem}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#0f1822;color:var(--txt)}
+</style>
+</head>
+<body>
+<header class="reveal">
+  <div>
+    <h1>Sec<span>Data</span> Perú</h1>
+    <div class="sub">Tablero dinámico de seguridad ciudadana · hotspots de riesgo por región</div>
+  </div>
+  <div class="meta" id="meta">cargando…</div>
+</header>
+
+<div class="timeline reveal" style="animation-delay:.08s">
+  <button class="playbtn" id="play">▶</button>
+  <span style="color:var(--muted);font-size:.8rem">Línea de tiempo</span>
+  <input type="range" id="slider" min="0" value="0" step="1">
+  <span class="perlabel" id="perlabel">—</span>
+</div>
+
+<div class="kpis">
+  <div class="kpi medio reveal" style="animation-delay:.12s"><div class="n" id="k1">0</div><div class="l">Victimización promedio nacional</div></div>
+  <div class="kpi alto reveal" style="animation-delay:.18s"><div class="n" id="k2">—</div><div class="l">Mayor índice de riesgo</div></div>
+  <div class="kpi alto reveal" style="animation-delay:.24s"><div class="n" id="k3">0</div><div class="l">Regiones en nivel Alto</div></div>
+</div>
+
+<div class="wrap">
+  <div class="card reveal" style="animation-delay:.3s">
+    <h2>Mapa de hotspots · índice de riesgo por región</h2>
+    <div id="map"></div>
+    <div class="legend">
+      <span><b>Semáforo:</b></span>
+      <span class="Alto">● Alto</span><span class="Medio">● Medio</span><span class="Bajo">● Bajo</span>
+      <span>· tamaño = índice de riesgo (0–100)</span>
+    </div>
+  </div>
+  <div class="card reveal" style="animation-delay:.36s">
+    <h2>Ranking de riesgo · clic para ver tendencia</h2>
+    <div class="rank"><table id="rank"><thead><tr><th>#</th><th>Región</th><th>Riesgo</th></tr></thead><tbody></tbody></table></div>
+  </div>
+</div>
+
+<div class="wrap" style="grid-template-columns:1fr">
+  <div class="card reveal" style="animation-delay:.42s">
+    <h2 id="trendTitle">Tendencia de victimización · Nacional</h2>
+    <div class="trend"><canvas id="trend" height="86"></canvas></div>
+  </div>
+</div>
+
+<footer class="reveal" style="animation-delay:.48s" id="foot"></footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const COL={Alto:'#e4572e',Medio:'#f2a900',Bajo:'#3fb27f'};
+let DATA, map, markers={}, chart, periodos=[], idx=0, timer=null;
+
+fetch('data.json').then(r=>r.json()).then(d=>{DATA=d;init();})
+  .catch(()=>{document.getElementById('meta').textContent='No se encontró data.json — ejecuta el pipeline.';});
+
+function animNumber(el,to,suf=''){
+  const from=parseFloat(el.dataset.v||0); el.dataset.v=to;
+  const t0=performance.now(),dur=600;
+  function step(t){const p=Math.min((t-t0)/dur,1);
+    el.textContent=(from+(to-from)*p).toFixed(suf==='%'?1:0)+suf;
+    if(p<1)requestAnimationFrame(step);}
+  requestAnimationFrame(step);
+}
+
+function init(){
+  periodos=DATA.nacional.periodos;
+  idx=periodos.length-1;
+  const sl=document.getElementById('slider');
+  sl.max=periodos.length-1; sl.value=idx;
+  sl.addEventListener('input',()=>{stop();idx=+sl.value;render();});
+  document.getElementById('play').addEventListener('click',toggle);
+  document.getElementById('foot').innerHTML=
+    `Fuente: ${DATA.meta.fuente}. Datos públicos / sintéticos para demostración; no contiene información reservada.<br>`+
+    `Creado por <b>Pierre R.</b> · Consultas: <a href="mailto:peru.labs.pe@gmail.com">peru.labs.pe@gmail.com</a>`;
+  buildMap();
+  render();
+  renderTrend('__nacional__');
+}
+
+function buildMap(){
+  map=L.map('map',{scrollWheelZoom:false,zoomControl:true}).setView([-9.2,-75],5);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    {attribution:'© OpenStreetMap, © CARTO',subdomains:'abcd',maxZoom:8}).addTo(map);
+}
+
+function render(){
+  const per=periodos[idx];
+  const arr=DATA.por_periodo[per];
+  document.getElementById('perlabel').textContent=per;
+  document.getElementById('meta').innerHTML=
+    `Periodo: <b>${per}</b> · Indicador: ${DATA.meta.indicador_principal}<br>Total regiones: ${arr.length}`;
+
+  // KPIs
+  const prom=arr.reduce((a,b)=>a+b.victimizacion,0)/arr.length;
+  const top=[...arr].sort((a,b)=>b.riesgo-a.riesgo)[0];
+  const altos=arr.filter(a=>a.semaforo==='Alto').length;
+  animNumber(document.getElementById('k1'),prom,'%');
+  document.getElementById('k2').textContent=`${top.region} (${top.riesgo})`;
+  animNumber(document.getElementById('k3'),altos);
+
+  // Mapa
+  arr.forEach(h=>{
+    const r=5+h.riesgo/6;
+    if(markers[h.region]){
+      markers[h.region].setStyle({color:COL[h.semaforo],fillColor:COL[h.semaforo]});
+      markers[h.region].setRadius(r);
+      markers[h.region].setPopupContent(popup(h));
+    }else{
+      markers[h.region]=L.circleMarker([h.lat,h.lon],{radius:r,color:COL[h.semaforo],
+        weight:1.5,fillColor:COL[h.semaforo],fillOpacity:.55}).addTo(map)
+        .bindPopup(popup(h)).on('click',()=>renderTrend(h.region));
+    }
+  });
+
+  // Ranking
+  const sorted=[...arr].sort((a,b)=>b.riesgo-a.riesgo);
+  document.querySelector('#rank tbody').innerHTML=sorted.map((r,i)=>
+    `<tr onclick="renderTrend('${r.region.replace(/'/g,"\\'")}')">
+      <td>${i+1}</td>
+      <td class="barcell"><span class="bar" style="width:${r.riesgo}%;background:${COL[r.semaforo]}"></span>
+        <span class="dot ${r.semaforo}"></span>${r.region}</td>
+      <td class="score">${r.riesgo}</td></tr>`).join('');
+}
+
+function popup(h){return `<b>${h.region}</b><br>Riesgo: ${h.riesgo} (${h.semaforo})<br>`+
+  `Victimización: ${h.victimizacion}%<br>Homicidios: ${h.homicidios}/100k`;}
+
+function toggle(){timer?stop():play();}
+function play(){
+  document.getElementById('play').textContent='❚❚';
+  timer=setInterval(()=>{
+    idx=(idx+1)%periodos.length;
+    document.getElementById('slider').value=idx;
+    render();
+    if(idx===periodos.length-1)stop();
+  },900);
+}
+function stop(){clearInterval(timer);timer=null;document.getElementById('play').textContent='▶';}
+
+function renderTrend(region){
+  let labels,data,title;
+  if(region==='__nacional__'){labels=DATA.nacional.periodos;data=DATA.nacional.victimizacion;title='Nacional';}
+  else{const s=DATA.series[region];labels=s.periodos;data=s.victimizacion;title=region;}
+  document.getElementById('trendTitle').textContent='Tendencia de victimización · '+title;
+  const ctx=document.getElementById('trend');
+  if(chart)chart.destroy();
+  chart=new Chart(ctx,{type:'line',
+    data:{labels,datasets:[{label:'Victimización (%)',data,borderColor:'#5db0ff',
+      backgroundColor:'rgba(93,176,255,.12)',fill:true,tension:.3,pointRadius:2,borderWidth:2}]},
+    options:{animation:{duration:600},plugins:{legend:{labels:{color:'#88a0b3'}}},
+      scales:{x:{ticks:{color:'#88a0b3'},grid:{color:'#28343f'}},
+              y:{ticks:{color:'#88a0b3'},grid:{color:'#28343f'}}}}});
+}
+</script>
+</body>
+</html>
