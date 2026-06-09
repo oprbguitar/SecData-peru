@@ -1,0 +1,12 @@
+{
+  "name": "secdata-peru",
+  "version": "1.0.0",
+  "description": "Tablero compacto de seguridad ciudadana de Perú",
+  "main": "docs/index.html",
+  "scripts": {
+    "dev": "npx http-server docs -p 8080 -o"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

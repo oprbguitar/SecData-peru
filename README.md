@@ -1,5 +1,17 @@
 # 🛡️ SecData Perú
 
+## 🚀 GUÍA RÁPIDA PARA ABRIR EL PROYECTO
+
+Para abrir y utilizar este tablero de seguridad en tu computadora, sigue estos pasos muy simples:
+
+1. **Abre la carpeta del proyecto** en el explorador de archivos de Windows.
+2. **Haz doble clic** en el archivo llamado **`iniciar-proyecto.bat`**.
+3. **Espera unos segundos** a que se abra automáticamente tu navegador web con el tablero.
+4. **Interactúa con el tablero** utilizando las pestañas superiores ("Resumen", "Mapa", "Tendencia", "Ranking", "Fuentes") y haz clic en las regiones.
+5. **Cierra la ventana negra (terminal)** cuando termines.
+
+---
+
 **Tablero dinámico de seguridad ciudadana: hotspots de riesgo por región, alimentado con datos públicos y pensado para la toma de decisiones.**
 
 > No es un mapa decorativo: es un **semáforo de riesgo** que ayuda a priorizar dónde concentrar patrullaje, presupuesto o intervención. Combina victimización, homicidios y percepción de inseguridad en un índice por región y permite recorrer su evolución en el tiempo.
